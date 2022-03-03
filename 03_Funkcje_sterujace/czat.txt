@@ -1,0 +1,200 @@
+Od Małgorzata Rita Łyczywek do wszystkich 05:04 PM
+https://python-ritaly.netlify.app/python_flow.html
+Od pwalner do wszystkich 05:11 PM
+dish = "gzik"
+if dish == "gzik":
+    print('Wielkopolska')
+else:
+    print('Inny region')
+Od Karol do wszystkich 05:16 PM
+impreza
+Od pwalner do wszystkich 05:16 PM
+impreza
+pizza
+burgery
+Od Łukasz Kołaczek do wszystkich 05:16 PM
+impreza pizza burgery
+Od Marek Pamula do wszystkich 05:16 PM
+impreza
+Od Maciej Cieszyński do wszystkich 05:16 PM
+impreza pizza burgery
+Ode mnie do wszystkich 05:17 PM
+impreza pizza
+Od Adam Formela do wszystkich 05:19 PM
+impreza
+Od Karol do wszystkich 05:19 PM
+impreza
+Od Maciej Cieszyński do wszystkich 05:19 PM
+impreza
+Od pwalner do wszystkich 05:19 PM
+impreza
+Od Marek Pamula do wszystkich 05:19 PM
+impreza
+Od Łukasz Kołaczek do wszystkich 05:19 PM
+impreza
+Od Aurelia Piekarska do wszystkich 05:19 PM
+impreza
+Od ArturG do wszystkich 05:19 PM
+impreza
+Od Łukasz Leszczyński do wszystkich 05:19 PM
+impreza
+Od ArturG do wszystkich 05:20 PM
+reg
+Od ArturG do wszystkich 05:26 PM
+dish = "zupa"
+if dish == "zupa":
+    reg = "w"
+print(reg)
+Od Małgorzata Rita Łyczywek do wszystkich 05:41 PM
+number = int(input("Podaj liczbe 1-100: "))
+# number = input("Podaj liczbe 1-100: ")
+# number = int(number)
+
+if number % 3 == 0:
+    print(f'Liczba {number} jest podzielna przez 3 bez reszty')
+else:
+    print('Liczba nie jest podzielna przez 3 bez reszty')
+
+Od Karol do wszystkich 05:47 PM
+score1 = int(input("Podaj pierwsza ocene w skali 1-10: "))
+score2 = int(input("Podaj drugą ocene w skali 1-10: "))
+score3 = int(input("Podaj trzecią ocene w skali 1-10: "))
+if (score3 + score2 + score1)/3 > 7:
+    print("Bardzo dobra")
+elif (score3 + score2 + score1)/3 < 5:
+    print("nie warta uwagi")
+else:
+    print("przeciętna")
+Od pwalner do wszystkich 05:47 PM
+raiting_1 = int(input('Podaj ocenę 1: '))
+raiting_2 = int(input('Podaj ocenę 2: '))
+raiting_3 = int(input('Podaj ocenę 3: '))
+raiting_avg = (raiting_1 + raiting_2 + raiting_3) / 3
+if raiting_avg > 7:
+    print('bardzo dobry')
+elif raiting_avg >= 5 and <= 7:
+    print('przeciętna')
+elif raiting_avg <= 4:
+    print('nie warta uwagi')
+Od Aurelia Piekarska do wszystkich 05:47 PM
+opinion_1 =int(input("podaj 1 opinie o ksiazce?"))
+opinion_2 =int(input("podaj 1 opinie o ksiazce?"))
+opinion_3 =int(input("podaj 1 opinie o ksiazce?"))
+if opinion_1 + opinion_2 + opinion_3 > 7 :
+    print("bardzo")
+elif opinion_1 + opinion_2 + opinion_3 >= 5 :
+    print("przecietna")
+elif opinion_1 + opinion_2 + opinion_3 <=4 :
+    print("nie warta uwagi")
+Od Małgorzata Rita Łyczywek do wszystkich 06:05 PM
+Żeby wam utrudnić zróbcie sobie string znaków specjalnych
+typu extras = "!&^%$#' i użytkownik musi użyć jeden z wymienionych
+\z dokumentacją albo z google, bo to trochę poza materiał wyjdzie\ 
+
+Od Maciej Cieszyński do wszystkich 06:08 PM
+print("")
+print("Prosimy o podanie hasła.")
+print("Hasło powinno składać z liter i cyfr,zwierać conajmniej 1 dużą literę imieć długość conajmniej 8 znaków.")
+
+password=str(input())
+print("")
+
+if len(password)<8:
+    print("Hasło nie ma 8 znaków.")
+elif password.isalpha()==True:
+    print("Hasło nie zawiera liter")
+elif password.isdigit() == True:
+    print("Hasło nie zawiera cyfr")
+elif password.islower() == True:
+    print("Hasło nie zawiera dużej litery")
+else:
+    print("Hasło jest silne.")
+Od Łukasz Kołaczek do wszystkich 06:08 PM
+password = input("podaj haslo: ")
+if password == "Haslo123":
+    print("Twoje hasło jest prawidłowe")
+elif len(password) < 8:
+    print("twoje haslo jest za krotkie")
+elif 
+
+else:
+    print("towje haslo jest nie prawidlowe")
+Od Adam Formela do wszystkich 06:12 PM
+if password.__contains__('!' or'&' or '^' or '%' or '$' or '#'):
+    print('Haslo zawiera znak specjalny')
+    if len(password) < 8:
+        print('Haslo musi zawirac co najmniej 8 znakow')
+    elif password.islower():
+        print('Haslo musi zawierac co najmniej 1 wielka lietre')
+    elif password.isalpha():
+        print('Haslo musi zawierac co najmniej 1 cyfre')
+    else:
+        print('Haslo poprawne')
+else:
+    print('Haslo nie zawiera znaku spcjalnego')
+Od Małgorzata Rita Łyczywek do wszystkich 06:22 PM
+18:35
+Od Małgorzata Rita Łyczywek do wszystkich 06:45 PM
+name_list = ["Ada", "Ruby", "Julia"]
+
+for name in name_list:
+    print('hello', name)
+Od Małgorzata Rita Łyczywek do wszystkich 07:02 PM
+name_list = ["Ada", "Ruby", "Julia"]
+
+for index in range(3):
+    print(index, ' : ', name_list[index])
+name_list = ["Ada", "Ruby", "Julia"]
+Od pwalner do wszystkich 07:07 PM
+for item in range(len(items)):
+    print(item, items[item])
+print('Great, we are ready!')
+items = ['latarka', 'gaz', 'pałka']
+
+for item in range(len(items)):
+    print(item, items[item])
+print('Great, we are ready!')
+Od Małgorzata Rita Łyczywek do wszystkich 07:29 PM
+sum_number = 0
+
+for number in range(1, 11):
+    sum_number = sum_number + number
+    print(sum_number)
+Od Łukasz Kołaczek do wszystkich 07:30 PM
+suma = 1
+for number in range(10):
+    suma = suma + number
+    print(suma + number)
+Od Małgorzata Rita Łyczywek do wszystkich 07:49 PM
+number = -1
+while (number <= 10):
+    print('******* ')
+    print('Ta liczba jest mniejsza lub równa 10')
+    number = int(input("Podaj kolejną liczę -> "))
+
+print('Jestem poza pętlą, liczba większa niż 10')
+Od Karol do wszystkich 07:56 PM
+f=0
+for i in range(0,201,20):
+    print(f, "F to ", (f-32)*5/9, "C")
+    f+=20
+Ode mnie do wszystkich 07:57 PM
+fahr_temp=0
+while fahr_temp<=200:
+    celc_temp=round(5/9*(fahr_temp-32),2)
+    print("Temp.",fahr_temp,"F odpowiada",celc_temp,"C")
+    fahr_temp+=20
+Od Karol do wszystkich 07:59 PM
+Dobra, rzeczywiście za dużo :P, poniżej jest "czyściej":
+
+for i in range(0,201,20):
+    print(i, "F to ", (i-32)*5/9, "C")
+Od Adam Formela do wszystkich 07:59 PM
+fahrenheit = 0
+
+while fahrenheit > -1:
+    celsius = round(5/9 * (fahrenheit - 32),2)
+    print(f'{fahrenheit} stopni F to {celsius} stopni C')
+    if fahrenheit >= 200:
+        break
+    fahrenheit += 20
